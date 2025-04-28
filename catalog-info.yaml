@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-demo-app"
+  annotations:
+    github.com/project-slug: JanakaSandaruwan/test-nodejs-server
+    backstage.io/kubernetes-id: test-demo-app
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
